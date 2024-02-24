@@ -25,10 +25,39 @@ body {
     height: 100px;
     align-items: center;
     margin-left: 122px;
-    margin-right: 86px;
 }
 
-.chat, .share {
-    padding-top: 35px;
-    padding-bottom: 35px;
+.chat-share {
+    display:flex;
+    align-items: center;
+    width: 72px;
+    height: 30px;
+    margin: 35px 86px 35px 86px;
+    gap: 12px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 21px;
+    width: 652px;
+    background-color: white;
+    color: grey;
+    border-radius: 5px;
+    border-width: thin;
+    border-color: lightgray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 18px;
+    padding-right: 21px;
+    position: relative;
+    background: url(./images/logos-icons/magnifying-glass.svg) no-repeat;
+    background-size: 17px;
+    background-position: 98% 50%;
+    margin-right: 86px;
 }
