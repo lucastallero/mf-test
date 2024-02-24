@@ -1,5 +1,5 @@
 body {
-    margin-top: 0px;
+    margin: 0px;
 }
 
 .top-header {
@@ -15,4 +15,20 @@ body {
     background-color: white;
     height: 100px;
     width: auto;
+    display:flex;
+}
+
+.logo-box {
+    display:flex;
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    margin-left: 122px;
+    margin-right: 86px;
+}
+
+.chat, .share {
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
