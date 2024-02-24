@@ -1,0 +1,18 @@
+body {
+    margin-top: 0px;
+}
+
+.top-header {
+    background-color: #909090;
+    font-family: Roboto, Arial, sans-serif;
+    width: auto;
+    height: 30px;  
+    text-align: center;
+    padding-top: 10px;
+}
+
+.header {
+    background-color: white;
+    height: 100px;
+    width: auto;
+}
