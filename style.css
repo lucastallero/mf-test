@@ -61,3 +61,9 @@ body {
     background-position: 98% 50%;
     margin-right: 86px;
 }
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
