@@ -1,21 +1,23 @@
-body {
+* {
     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 .top-header {
     background-color: #909090;
-    font-family: Roboto, Arial, sans-serif;
     width: auto;
     height: 30px;  
     text-align: center;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
-.header {
+.main-header {
     background-color: white;
-    height: 100px;
-    width: auto;
-    display:flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo-box {
@@ -24,7 +26,6 @@ body {
     width: 100px;
     height: 100px;
     align-items: center;
-    margin-left: 122px;
 }
 
 .chat-share {
@@ -56,6 +57,7 @@ body {
     padding-left: 18px;
     padding-right: 21px;
     position: relative;
+
     background: url(./images/logos-icons/magnifying-glass.svg) no-repeat;
     background-size: 17px;
     background-position: 98% 50%;
@@ -66,4 +68,57 @@ body {
     display: flex;
     align-items: center;
     gap: 12px;
+}
+
+.slideshow-container {
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    height: auto;
+}
+
+.slide-button {
+    position: absolute;
+    top: 50%;
+    background: rgba(144, 144, 144, 0.5);
+    color: #2F2F2F;
+    border-radius: 50%;
+    border-width: 0;
+    width: 55px;
+    height: 55px;
+}
+
+.slide-left {
+    margin-left: 50px;
+}
+
+.slide-right {
+    left: 94%;
+}
+
+.bottom-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    margin-top: 12px;
+}
+
+.nav-button {
+    background-color: #d9d9d9;
+    padding: 5px;
+    border-width: 0;
+    border-radius: 50%;
+}
+
+.nav-button:hover {
+    background-color: #909090;
+}
+
+.nav-button:focus {
+    background-color: #909090;
+    width: 40px;
+    border-radius: 5px;
 }
