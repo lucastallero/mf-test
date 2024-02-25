@@ -7,23 +7,45 @@
     <title>Loja Oficial MF Rural</title>
 </head>
 <body>
-    <div class="top-header">Loja Oficial MF Rural</div>
-    <div class="header">
-        <div class="logo-box">
-            <img id="jacto-logo" src="./images/logos-icons/logo box.svg" alt="Logo da Jacto">
+    <header>
+        <div class="top-header">Loja Oficial MF Rural</div>
+        <div class="main-header">
+            <div class="logo-box">
+                <img id="jacto-logo" src="./images/logos-icons/logo box.svg" alt="Logo da Jacto">
+            </div>
+            <div class="chat-share">
+                <img class="chat" src="./images/logos-icons/Share.svg" alt="Chat">
+                <img class="share" src="./images/logos-icons/Chat.svg" alt="Compartilhar">
+            </div>
+            <div class="search-bar">
+                <input class="search" type="search" placeholder="O que você procura?">
+            </div>
+            <div class="socials">
+                <img id="facebook" src="./images/logos-icons/facebook.svg" alt="Facebook">
+                <img id="instagram" src="./images/logos-icons/instagram.svg" alt="Instagram">
+                <img id="youtube" src="./images/logos-icons/youtube.svg" alt="YouTube">
+            </div>
         </div>
-        <div class="chat-share">
-            <img class="chat" src="./images/logos-icons/Share.svg" alt="Chat">
-            <img class="share" src="./images/logos-icons/Chat.svg" alt="Compartilhar">
+    </header>
+
+    <main>
+        <!--Seria preciso fazer a maior parte da animação do
+        slideshow em Javascript para funcionar devidamente-->
+        <div class="slideshow-container">
+            <img class="slide" src="images/logos-icons/slide.svg">
+            <!-- <img class="slide" src="images/logos-icons/slide1.svg">
+            <img class="slide" src="images/logos-icons/slide2.svg">
+            <img class="slide" src="images/logos-icons/slide3.svg"> -->
+
+            <button class="slide-button slide-left">&lt</button>
+            <button class="slide-button slide-right">&gt</button>
         </div>
-        <div class="search-bar">
-            <input class="search" type="search" placeholder="O que você procura?">
+        <div class="bottom-button">
+            <button class="nav-button"></button>
+            <button class="nav-button"></button>
+            <button class="nav-button"></button>
+            <button class="nav-button"></button>
         </div>
-        <div class="socials">
-            <img id="facebook" src="./images/logos-icons/facebook.svg" alt="Facebook">
-            <img id="instagram" src="./images/logos-icons/instagram.svg" alt="Instagram">
-            <img id="youtube" src="./images/logos-icons/youtube.svg" alt="YouTube">
-        </div>
-    </div>
+    </main>
 </body>
 </html>
