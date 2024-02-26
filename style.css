@@ -187,16 +187,27 @@
     margin-bottom: 68px;
 }
 
+.order-by {
+    display:flex;
+    justify-content: flex-end;
+    align-content: right;
+}
+
 .catalog {
     display: flex;
     flex-flow: row;
     justify-content: center;
     align-items: start;
+    margin-bottom: 120px;
 }
 
 .index {
     margin-right: 50px;
     line-height: 35px;
+}
+
+.catalog-products, .index {
+    margin-top: 40px;
 }
 
 .index-categories {
@@ -280,6 +291,35 @@
     background-color: #F4811F;
     color:#FFFFFF;
 }
+
+.pagination {
+    display: flex;
+    flex-direction: row nowrap;
+    gap: 40px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.pagination button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: transparent;
+    font-size: 16px;
+}
+
+.pagination .page-zero {
+    background-color: transparent;
+}
+
+.pagination button:focus {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: transparent;
+    background-color: rgba(244, 129, 31, 0.25)
+}
+
 
 .footer-line {
     display: inline-block;
