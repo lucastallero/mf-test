@@ -65,7 +65,7 @@
     margin-right: 86px;
 }
 
-.socials {
+.socials-header {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -279,4 +279,59 @@
 .consultar:active {
     background-color: #F4811F;
     color:#FFFFFF;
+}
+
+.footer-line {
+    display: inline-block;
+    width: 25%;
+    height: 20px;
+}
+
+.orange {
+    background-color: #EE730D
+}
+
+.red {
+    background-color: #EA5D2C
+}
+
+.green {
+    background-color: #00974D;
+}
+
+.light-green {
+    background-color: #76B72E;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+}
+
+.address {
+    margin-left: 5%;
+}
+
+.address p {
+    font-weight: 400;
+}
+
+.socials-footer {
+    margin-left: 35%;
+}
+
+.logo-footer {
+    margin-right: 5%;
+    margin-left: 20%;
+}
+
+.socials-footer #instagram,
+.socials-footer #youtube,
+.socials-footer #facebook {
+    padding: 4px;
+    width: 40px;
+    height: 40px; 
 }
