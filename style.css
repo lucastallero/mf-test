@@ -187,27 +187,25 @@
     margin-bottom: 68px;
 }
 
-.order-by {
-    display:flex;
-    justify-content: flex-end;
-    align-content: right;
-}
-
 .catalog {
     display: flex;
     flex-flow: row;
     justify-content: center;
-    align-items: start;
     margin-bottom: 120px;
+    margin-top: 50px;
+}
+
+.order-by {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 .index {
     margin-right: 50px;
     line-height: 35px;
-}
-
-.catalog-products, .index {
-    margin-top: 40px;
 }
 
 .index-categories {
@@ -374,4 +372,76 @@
     padding: 4px;
     width: 40px;
     height: 40px; 
+}
+
+.chatbox {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(85, 173, 51, 0.1);
+    border-style: solid;
+    border-color: rgba(85, 173, 51, 1);
+    border-width: 2px;
+    border-radius: 8px;
+    width: 370px;
+    height: 600px;
+    justify-content: start;
+    align-items: center;
+}
+
+.header-chatbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.header-chatbox h4 {
+    margin-left: 10px;
+}
+
+.chatbox input,
+.chatbox textarea {
+    width: 327px;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    margin: 8px;
+}
+
+.chatbox input {
+    height: 45px;
+}
+
+.chatbox textarea {
+    height: 105px;
+}
+
+.chatbox form {
+    margin-bottom: 20px;
+}
+
+.chatbox .margin {
+    margin-bottom: 10px;
+}
+
+.submit {
+    width: 327px;
+    height: 45px;
+    color:rgba(85, 173, 51, 1);
+    background-color: white;
+    border-style: solid;
+    border-color: rgba(85, 173, 51, 1);
+    border-radius: 5px;
+    border-width: 2px;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit:active {
+    color: white;
+    background-color: rgba(85, 173, 51, 1);
 }

@@ -47,10 +47,6 @@
             <button class="nav-button"></button>
         </div>
 
-        <br><br><br>
-        <div class="heading-new-prod">
-            <h2 id="new-prod-h2">Novos Produtos</h2>
-        </div>
         <div class="product-showcase">
             <div class="new-product">
                 <img id="new-prod" src="./images/products-banners/financiamento.svg" alt="Financiamento Jacto Brasil">
@@ -80,9 +76,6 @@
         </div>
 
         <div class="catalog">
-            <div class="order-by">
-                <h5>Ordenar por <span class="order">Mais recentes</span></h5>
-            </div>
             <div class="index">
                 <div class="index-categories">
                     <h3>Categorias <span id="quantity">(125)</span></h3>
@@ -246,6 +239,33 @@
                     <img id="mf-rural-logo" src="./images/products-banners/mf-rural-logo.svg" alt="MF Rural">
                 </div>
             </div>
+        </div>
+
+        <!--O chat box ficará como comentário escondido pois se não ele fica
+        por cima da página, e é necessário fazer o Javascript para que ele apareça
+        quando requisitado-->
+        <div class="chatbox">
+            <div class="header-chatbox">
+                <img src="./images/logos-icons/chat-icon.svg">
+                <h4>Fale com nosso representante</h4>
+            </div>
+            <form>
+                <label for="nome"></label>
+                <input type="text" id="nome" name="nome" placeholder="Nome"><br>
+                <label for="email"></label>
+                <input type="text" id="email" name="email" placeholder="E-mail"><br>
+                <label for="telefone"></label>
+                <input type="text" id="telefone" name="telefone" placeholder="Telefone"><br>
+                <label for="info"></label>
+                <textarea type="text" id="info" name="info" placeholder="Olá, gostaria de mais informações sobre o produto"></textarea><br>
+            </form>
+            <div class="captcha">
+                <img src="./images/logos-icons/fake-captcha.svg">
+            </div>
+            <div class="submit">
+                Enviar mensagem
+            </div>
+
         </div>
     </footer>
 </body>
