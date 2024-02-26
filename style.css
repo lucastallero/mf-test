@@ -205,7 +205,7 @@
 
 .index p, 
 #quantity {
-    font-family: "Roboto Light";
+    font-family: "Roboto Light", sans-serif;
 }
 
 #quantity {
@@ -221,11 +221,62 @@
     justify-content: space-between;
 }
 
-.catalog-products #produto {
+.catalog-products .product {
+    display: flex;
+    flex-direction: column;
     width: 203px;
     height: 279px;
     border-style: solid;
     border-width: 2px;
     border-color: #FFFFFF;
     box-shadow: 0 0 50px -29px #7F7F7F;
+    padding: 6px;
+}
+
+.product h3 {
+    font-family: "Roboto Bold", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.product p {
+    margin-top: 10px;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 10px;
+}
+
+.product h3,
+.product h2,
+.product p {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.product h2 {
+    margin-top: 10px;
+    color: #F4811F;
+    font-size: 18px
+}
+
+.consultar {
+    width: 170px;
+    height: 32px;
+    border-style: solid;
+    border-color: #F4811F;
+    border-width: 1px;
+    border-radius: 6px;
+    font-size: 14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: #F4811F;
+    background-color: #FFFFFF;
+    align-self: center;
+    text-align: center;
+    margin-top: auto;
+}
+    
+.consultar:active {
+    background-color: #F4811F;
+    color:#FFFFFF;
 }
